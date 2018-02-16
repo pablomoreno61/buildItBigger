@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JokeDisplay</string>
+    <string name="joke_not_found_text">your joke dealer failed to deliver a joke</string>
+</resources>

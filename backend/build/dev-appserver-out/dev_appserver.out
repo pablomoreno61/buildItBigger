@@ -1,0 +1,7 @@
+feb 16, 2018 9:43:33 AM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFORMACIÓN: Overwriting system property key 'java.util.logging.config.file', value '/Users/pablomoreno/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/Users/pablomoreno/AndroidStudioProjects/buildItBigger/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
+2018-02-16 09:43:34.072:INFO::main: Logging initialized @2249ms
+
+************************************************
+Could not open the requested socket: Address already in use
+Try overriding --address and/or --port.
