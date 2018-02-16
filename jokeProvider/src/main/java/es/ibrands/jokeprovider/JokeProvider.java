@@ -1,5 +1,6 @@
 package es.ibrands.jokeprovider;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 /**
@@ -20,5 +21,10 @@ public class JokeProvider
         Random rand = new Random();
         int value = rand.nextInt(jokeList.length - 1);
         return jokeList[value];
+    }
+
+    public String[] getJokeList()
+    {
+        return jokeList;
     }
 }

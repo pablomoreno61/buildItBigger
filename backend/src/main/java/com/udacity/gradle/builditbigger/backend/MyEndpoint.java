@@ -21,15 +21,6 @@ import es.ibrands.jokeprovider.JokeProvider;
 
 public class MyEndpoint
 {
-    /** A simple endpoint method that takes a name and says Hi back */
-    @ApiMethod(name = "sayHi")
-    public MyBean sayHi(@Named("name") String name) {
-        MyBean myBean = new MyBean();
-        myBean.setData("Hello " + name);
-
-        return myBean;
-    }
-
     @ApiMethod(name = "getRandomJoke")
     public MyBean getRandomJoke()
     {
