@@ -54,7 +54,7 @@ public class MainActivityFragment extends Fragment
         if (!testFlag) {
             Context context = getActivity();
             Intent intent = new Intent(context, DisplayJokeActivity.class);
-            intent.putExtra(DisplayJokeActivity.JOKE_KEY, jokeText);
+            intent.putExtra(DisplayJokeActivity.JOKE_TEXT, jokeText);
 
             context.startActivity(intent);
         }
